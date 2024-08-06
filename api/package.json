@@ -1,0 +1,31 @@
+{
+  "name": "seng513-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafael1321/SENG513-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafael1321/SENG513-API/issues"
+  },
+  "homepage": "https://github.com/Rafael1321/SENG513-API#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3"
+  }
+}
